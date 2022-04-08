@@ -5,14 +5,18 @@
  */
 int main(void)
 {
-	char ch;
- for (ch = 'a'; ch <= 'z'; ch++)
-    {
-    	if(ch!='q' && ch!='e')
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
 		{
-			putchar(ch);
+			putchar(c);
 		}
-    }
+	}
+
 	putchar('\n');
+
 	return (0);
 }
+
