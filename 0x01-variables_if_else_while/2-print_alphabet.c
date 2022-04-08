@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Prints if number is positive, zero or negative
@@ -7,12 +5,10 @@
  */
 int main(void)
 {
-	char ch;
+  char ch;
  for (ch = 'a'; ch <= 'z'; ch++)
-    {
         putchar(ch);
-    }
-	putchar('\n');
-	return (0);
+ putchar('\n');
+ return (0);
 }
 
